@@ -7,17 +7,17 @@ A sophisticated **LangGraph-powered multi-agent debate system** where AI persona
 ## 🌟 Features
 
 ### 🎯 Core Capabilities
-- **🤖 Dual-Agent Architecture**: Scientist (evidence-based) vs Philosopher (ethics-focused)
-- **📊 Structured 8-Round Debates**: Alternating turns with persistent memory
-- **⏱️ Comprehensive Logging**: Full timestamped audit trail of all events
-- **🎯 Intelligent Judging**: Automated evaluation with detailed reasoning
-- **💾 Smart Memory**: Incremental summarization after each round
+- **Dual-Agent Architecture**: Scientist (evidence-based) vs Philosopher (ethics-focused)
+- **Structured 8-Round Debates**: Alternating turns with persistent memory
+- **Comprehensive Logging**: Full timestamped audit trail of all events
+- **Intelligent Judging**: Automated evaluation with detailed reasoning
+- **Smart Memory**: Incremental summarization after each round
 
 ### 🔧 Technical Excellence
-- **🔄 Multi-Provider API Support**: Groq, Google Gemini, OpenAI, Hugging Face
-- **⚡ Automatic Fallback**: Seamless provider switching on failures
-- **🔍 Validation System**: Turn checks, repetition detection, coherence monitoring
-- **📈 Performance Optimized**: Rate limiting, exponential backoff, connection pooling
+- **Multi-Provider API Support**: Groq, Google Gemini, OpenAI, Hugging Face
+- **Automatic Fallback**: Seamless provider switching on failures
+- **Validation System**: Turn checks, repetition detection, coherence monitoring
+- **Performance Optimized**: Rate limiting, exponential backoff, connection pooling
 
 ## 🚀 Quick Start
 
@@ -166,10 +166,10 @@ python main.py
 ```
 
 ### Validation Checks
-- ✅ **Turn Validation**: Ensures proper speaking order
-- ✅ **Repetition Detection**: Identifies redundant arguments  
-- ✅ **Coherence Monitoring**: Maintains debate quality
-- ✅ **API Health**: Continuous provider status checks
+-  **Turn Validation**: Ensures proper speaking order
+-  **Repetition Detection**: Identifies redundant arguments  
+-  **Coherence Monitoring**: Maintains debate quality
+-  **API Health**: Continuous provider status checks
 
 ## 🛠️ Technical Details
 
