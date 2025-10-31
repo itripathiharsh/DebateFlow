@@ -1,0 +1,120 @@
+# .gitignore for Python Debate System
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# API keys and sensitive data
+*.key
+*.pem
+*.crt
+config.py
+secrets.py
+
+# Debate system - KEEP LOGS and DAG DIAGRAMS
+# dag_diagram.png        # ✅ NOW COMMITTED
+# dag_diagram.mmd        # ✅ NOW COMMITTED
+
+# Temporary files
+*.tmp
+*.temp
+
+# LangGraph / LangChain cache
+.langchain/
+.langgraph/
+
+# Hugging Face cache
+.huggingface/
+
+# Machine learning models (if you download any locally)
+models/
+*.bin
+*.pth
+*.h5
+
+# Other log files (but KEEP debate_log.txt)
+*.log
+!logs/debate_log.txt

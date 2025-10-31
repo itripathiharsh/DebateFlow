@@ -1,0 +1,7 @@
+langgraph==0.2.76
+langchain==0.3.7
+langchain-openai==0.2.0
+openai>=1.51.0  # Use a newer version
+python-dotenv==1.0.0
+pydantic>=2.8.2
+tiktoken>=0.7.0
